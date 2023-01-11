@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int t;
+    cout<<"ENTER NUMBER:";
+    cin >> t;
+    int count=0;
+    for(int i=1;i<=t;i++){
+        if(t % i==0){
+            count++;
+            }}
+        if(count==2){
+            cout<<"NUMBER IS PRIME"<<endl;
+            }
+         else{
+            cout<<"NUMBER IS NOT  PRIME"<<endl;
+            }
+}  
