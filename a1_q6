@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n,n2,count=1,n1=0,new_num=0,rem=0;
+    cout<<"ENTER A NUMBER:";
+    cin>>n2;
+    n=n2;
+    while(n>10)
+{n1=n/10;
+count++;
+n=n1;
+}
+for(int i=0;i<count;i++){
+    int q=n2/10;
+    rem=n2%10;
+    n2=q;
+    new_num=(new_num*10)+rem;
+    }
+cout<<"rev no is"<<new_num;}
